@@ -1,0 +1,22 @@
+---
+layout: blog-item
+---
+
+<main class="p-3 push2 text-center">
+  <p class="ib push-1-2 py-3">
+    <a href="/blog/" class="btn btn-success back">← See other articles</a>
+  </p>
+  <h1 class="text-center">{{page.title}}</h1>
+  <p class="text-secondary btn-sm text-center ">
+    <i> Written by <strong class="fw-light text-warning"> {{page.author}}</strong> </i>
+    <i class="ms-3">
+      On: <strong class="fw-light text-warning"> {{page.written-on}}</strong>
+    </i>
+  </p>
+  <h1 class="border-top py-3"></h1>
+  {{content}}
+  <p class="ib push-1-2 py-3">
+    <a href="/blog/" class="btn btn-success back">← See other articles</a>
+  </p>
+
+</main>
